@@ -1,0 +1,57 @@
+.logo {
+    width: 200px;
+    height: 100px;
+    margin: 0;
+  }
+ 
+.lastpage{
+    padding: 40px 120px;
+    background: rgb(248, 248, 248);
+}
+.last{
+  display: flex;
+  justify-content: space-between;
+}
+.second div{
+    width: 200px;
+  }
+  .second h4{
+    font-weight: lighter;
+  }
+  .second a{
+    display: inline-block;
+    width: 150px;
+    margin-top: 11px;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+  
+  }
+  .second{
+    
+    display: flex;
+    justify-content: flex-end;
+  }
+  .icons{
+    display: flex;
+  }
+  .icons img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  .about{
+    margin-top: 25px;
+  }
+  .details{
+    margin-top: 75px;
+  }
+  .logo {
+    float: left;
+  }
+  .nav-item {  
+    margin-right: 70px;
+    margin-left: -20px;
+  }
+  
+  

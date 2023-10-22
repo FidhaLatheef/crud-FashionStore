@@ -1,0 +1,48 @@
+body{
+    font-family:cursive;
+}
+
+.navbar {
+    padding: 10px;
+    /* background-color: rgba(245, 193, 245, 0.274); */
+   
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .logo-container {
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 100px;
+    margin: 0;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #994860da;
+    padding: 5px 10px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    padding: 1rem 2rem; 
+    font-size: 1.5rem; 
+    border: 1px ;
+    border-radius: 8px;
+  }
+  
+ 
+  

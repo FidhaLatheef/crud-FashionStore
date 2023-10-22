@@ -1,0 +1,49 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #994860da;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    background-color: #994860da;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .image-preview {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .image-preview h2 {
+    margin-bottom: 10px;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  
+
+  

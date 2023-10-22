@@ -1,0 +1,39 @@
+.about {
+   
+    margin-top: 0;
+}
+
+.about-top {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0;
+    background-color:rgba(128, 128, 128, 0.062);
+    padding-bottom: 80px;
+    color: #994860da;
+    font-size: xx-large;
+    padding: 80px;
+  }
+  .about-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+p{
+    max-width: 700px; 
+    color: grey;
+}
+.mission{
+    color: #994860da;
+   
+}
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }

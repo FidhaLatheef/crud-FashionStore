@@ -1,0 +1,63 @@
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #994860da;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #994860da;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.edit-link,
+.delete-link {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit-link {
+  background-color: #994860da;
+  margin-right: 5px;
+  font-size: 16.5px;
+  text-decoration: none;
+}
+
+.delete-link {
+  background-color: #ca1818c7;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.delete-link + .delete-link {
+  margin-left: 5px; /* Add a margin to the second delete button */
+}
+
+.edit-link:hover,
+.delete-link:hover {
+  opacity: 0.8;
+}
